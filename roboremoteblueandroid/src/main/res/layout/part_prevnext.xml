@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/layoutRemote_ChangePage"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             style="@style/remote_rs_pagenav_panel">
+
+	<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+			android:id="@+id/prev_page"
+			android:layout_gravity="center_vertical|start"
+			android:text="@string/previous_page"
+			android:minHeight="34dp"
+			android:minWidth="84dp"
+			style="@style/remote_rs_prev_page_button"/>
+
+	<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+			android:id="@+id/next_page"
+			android:layout_gravity="center_vertical|end"
+			android:text="@string/next_page"
+			android:minHeight="34dp"
+			android:minWidth="84dp"
+			style="@style/remote_rs_next_page_button"/>
+</FrameLayout>

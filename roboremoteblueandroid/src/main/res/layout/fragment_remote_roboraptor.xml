@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/layoutRemote"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+	 		 android:background="@color/appdarkblue"
+             android:orientation="vertical">
+
+	<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+		<include
+				android:id="@+id/layoutRemote_topmenu"
+				layout="@layout/part_topmenu"/>
+
+		<FrameLayout
+				android:id="@+id/layoutRemote_BottomPanel"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:baselineAligned="true"
+				style="@style/remote_rr_bottompanel">
+
+			<FrameLayout
+				android:id="@+id/layoutRemote_MovementBottomPanel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|center_horizontal"
+				android:orientation="vertical"
+				style="@style/remote_rr_movement_bottompanel">
+
+				<FrameLayout
+					android:id="@+id/layoutRemote_MovementBottomPanel_Top"
+					android:layout_gravity="bottom"
+					style="@style/remote_rr_movement_bottompanel_top">
+
+					<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+						android:layout_gravity="center_horizontal"
+						android:text="@string/move_forward"
+						android:tag="ActionMovementForward"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"/>
+
+				</FrameLayout>
+
+				<RelativeLayout
+					android:id="@+id/layoutRemote_MovementBottomPanel_Middle"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical">
+
+					<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+						android:id="@+id/stop"
+						android:layout_centerInParent="true"
+						android:text="@string/stop"
+						android:tag="Stop"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"/>
+
+					<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+						android:layout_toLeftOf="@+id/stop"
+						android:text="@string/move_left"
+						android:tag="ActionMovementLeft"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"/>
+
+					<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+						android:layout_toRightOf="@+id/stop"
+						android:text="@string/move_right"
+						android:tag="ActionMovementRight"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"/>
+
+				</RelativeLayout>
+
+				<FrameLayout
+					android:id="@+id/layoutRemote_MovementBottomPanel_Bottom"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="bottom"
+					style="@style/remote_rr_movement_bottompanel_bottom">
+
+					<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+						android:layout_gravity="center_horizontal|bottom"
+						android:text="@string/move_back"
+						android:tag="ActionMovementBack"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"/>
+				</FrameLayout>
+			</FrameLayout>
+			<LinearLayout
+					android:id="@+id/layoutRemote_LeftBottomPanel"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="bottom|start"
+					android:orientation="vertical"
+					style="@style/remote_rr_left_bottom_panel">
+
+				<com.wowwee.roboremotebluesampleproject.utils.DimmableButtonPanel
+				    android:id="@+id/button_guard_mode"
+				    style="@style/remote_rr_guard_mode"
+				    android:paddingLeft="1dp"
+				    android:paddingRight="5dp"
+				    android:tag="ActionBottomPanelLeftTop"
+				    android:text="@string/guard_mode" />
+
+				<com.wowwee.roboremotebluesampleproject.utils.DimmableButtonPanel
+						android:id="@+id/buttonDemo"
+						android:paddingRight="20dp"
+						android:tag="ActionBottomPanelLeftMiddle"
+						android:text="@string/demo"
+						style="@style/remote_rr_demo"/>
+
+				<com.wowwee.roboremotebluesampleproject.utils.DimmableButtonPanel
+				    android:id="@+id/button_hunting_mode"
+				    style="@style/remote_rr_hunting_mode"
+				    android:paddingLeft="5dp"
+				    android:paddingRight="1dp"
+				    android:tag="ActionBottomPanelLeftBottom"
+				    android:text="@string/hunting_mode" />
+
+			</LinearLayout>
+			<LinearLayout
+			    android:id="@+id/layoutRemote_RightBottomPanel"
+			    style="@style/remote_rr_right_bottompanel"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="bottom|end"
+			    android:gravity="right"
+			    android:orientation="vertical" >
+
+				<com.wowwee.roboremotebluesampleproject.utils.DimmableButtonPanel
+				    style="@style/remote_rr_cautious_mode"
+				    android:paddingRight="1dp"
+				    android:tag="ActionBottomPanelRightTop"
+				    android:text="@string/cautious_mode" />
+
+				<com.wowwee.roboremotebluesampleproject.utils.DimmableButtonPanel
+				    android:id="@+id/buttonExtra"
+				    style="@style/remote_rr_roam"
+				    android:paddingLeft="10dp"
+				    android:paddingRight="1dp"
+				    android:tag="ActionBottomPanelRightMiddle"
+				    android:text="@string/roam" />
+
+				<com.wowwee.roboremotebluesampleproject.utils.DimmableButtonPanel
+				    style="@style/remote_rr_playful_mode"
+				    android:paddingRight="1dp"
+				    android:tag="ActionBottomPanelRightBottom"
+				    android:text="@string/playful_mode" />
+
+			</LinearLayout>
+
+			<LinearLayout
+					android:id="@+id/layoutRemote_BottomPanel_CommandName"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|center_horizontal"
+					android:gravity="bottom|center_horizontal"
+					android:orientation="horizontal"
+					style="@style/remote_rr_commandname_bottompanel">
+
+				<com.wowwee.roboremotebluesampleproject.utils.AutoResizeTextView
+				    android:id="@+id/textView_BottomPanel_CommandName"
+				    style="@style/remote_rr_commandname"
+				    android:layout_width="180dp"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center_horizontal|center_vertical"
+				    android:gravity="center_horizontal"
+				    android:lines="1"
+				    android:text="Command"
+				    android:textColor="@color/white" />
+
+			</LinearLayout>
+
+		</FrameLayout>
+
+		<FrameLayout
+				android:id="@+id/layoutRemote_top"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_above="@id/layoutRemote_BottomPanel"
+				android:layout_below="@id/layoutRemote_topmenu"
+				android:baselineAligned="false"
+				android:orientation="vertical">
+
+			<LinearLayout
+					android:id="@+id/layoutRemote_top_top"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					style="@style/remote_rr_top_toppanel">
+
+				<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+						android:text="@string/clockwise_head_vc"
+						android:tag="ActionTopPanel_Roboraptor_Up"
+						android:textSize="@dimen/dimension_12"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"/>
+
+			</LinearLayout>
+
+			<RelativeLayout
+					android:id="@+id/layoutRemote_top_middle"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical"
+					android:layout_weight="1"
+					android:gravity="center_horizontal|center_vertical">
+
+				<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+					android:id="@+id/bite"
+					android:layout_centerInParent="true"
+					android:text="@string/bite"
+					android:tag="ActionTopPanel_Roboraptor_Center"
+					android:textSize="@dimen/dimension_12"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+
+				<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+						android:layout_toLeftOf="@+id/bite"
+						android:text="@string/tail_left_vc"
+						android:tag="ActionTopPanel_Roboraptor_Left"
+						android:textSize="@dimen/dimension_12"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"/>
+
+				<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+						android:layout_toRightOf="@+id/bite"
+						android:text="@string/tail_right_vc"
+						android:tag="ActionTopPanel_Roboraptor_Right"
+						android:textSize="@dimen/dimension_12"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"/>
+
+			</RelativeLayout>
+
+			<LinearLayout
+					android:id="@+id/layoutRemote_top_bottom"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical"
+					android:layout_weight="1"
+					android:gravity="center_horizontal"
+					style="@style/remote_rr_bottom_toppanel">
+
+				<com.wowwee.roboremotebluesampleproject.utils.DimmableButton
+						android:layout_gravity="center_horizontal"
+						android:text="@string/counterclockwise_head_vc"
+						android:tag="ActionTopPanel_Roboraptor_Down"
+						android:textSize="@dimen/dimension_12"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"/>
+			</LinearLayout>
+
+		</FrameLayout>
+
+		<LinearLayout
+				android:id="@+id/layout_RemotePanel_blacklayer"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:alpha="0.5"
+				android:background="@color/appblackwithalpha"
+				android:gravity="center_horizontal"
+				android:orientation="vertical"
+				style="@style/remote_rr_blacklayerpanel">
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</FrameLayout>

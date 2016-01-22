@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="remote_rr_topmenu_general">
+	</style>
+	<style name="remote_rr_topmenu" parent="remote_rr_topmenu_general">
+	</style>
+
+	<style name="remote_rr_bottompanel_general">
+	</style>
+	<style name="remote_rr_bottompanel" parent="remote_rr_bottompanel_general">
+	</style>
+	<style name="remote_rr_left_bottom_panel_general">
+	</style>
+	<style name="remote_rr_left_bottom_panel" parent="remote_rr_left_bottom_panel_general">
+		<item name="android:layout_marginBottom">5dp</item>
+	</style>
+	<style name="remote_rr_guard_mode_general">
+	</style>
+	<style name="remote_rr_guard_mode" parent="remote_rr_guard_mode_general">
+		<item name="android:layout_width">70dp</item>
+		<item name="android:layout_height">50dp</item>
+		<item name="android:layout_marginBottom">8dp</item>
+		<item name="android:paddingLeft">-5dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rr_demo_general">
+	</style>
+	<style name="remote_rr_demo" parent="remote_rr_demo_general">
+		<item name="android:layout_width">70dp</item>
+		<item name="android:layout_height">70dp</item>
+		<item name="android:layout_marginBottom">8dp</item>
+		<item name="android:paddingLeft">-5dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rr_hunting_mode_general">
+	</style>
+	<style name="remote_rr_hunting_mode" parent="remote_rr_hunting_mode_general">
+		<item name="android:layout_width">70dp</item>
+		<item name="android:layout_height">50dp</item>
+		<item name="android:layout_marginBottom">8dp</item>
+		<item name="android:paddingLeft">-5dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rr_movement_bottompanel_general">
+	</style>
+	<style name="remote_rr_movement_bottompanel" parent="remote_rr_movement_bottompanel_general">
+	</style>
+	<style name="remote_rr_movement_bottompanel_top_general">
+	</style>
+	<style name="remote_rr_movement_bottompanel_top" parent="remote_rr_movement_bottompanel_top_general">
+		<item name="android:layout_width">202dp</item>
+		<item name="android:layout_height">202dp</item>
+	</style>
+	<style name="remote_rr_move_forward_general">
+	</style>
+	<style name="remote_rr_move_forward" parent="remote_rr_move_forward_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:minHeight">70dp</item>
+		<item name="android:minWidth">134dp</item>
+	</style>
+	<style name="remote_rr_movement_bottompanel_middle_general">
+	</style>
+	<style name="remote_rr_movement_bottompanel_middle" parent="remote_rr_movement_bottompanel_middle_general">
+		<item name="android:layout_marginBottom">40dp</item>
+	</style>
+	<style name="remote_rr_move_stop_general">
+	</style>
+	<style name="remote_rr_move_stop" parent="remote_rr_move_stop_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:minHeight">60dp</item>
+		<item name="android:minWidth">60dp</item>
+	</style>
+	<style name="remote_rr_move_left_general">
+	</style>
+	<style name="remote_rr_move_left" parent="remote_rr_move_left_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">-57dp</item>
+		<item name="android:minHeight">134dp</item>
+		<item name="android:minWidth">70dp</item>
+	</style>
+	<style name="remote_rr_move_right_general">
+	</style>
+	<style name="remote_rr_move_right" parent="remote_rr_move_right_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">58dp</item>
+		<item name="android:minHeight">134dp</item>
+		<item name="android:minWidth">70dp</item>
+	</style>
+	<style name="remote_rr_movement_bottompanel_bottom_general">
+	</style>
+	<style name="remote_rr_movement_bottompanel_bottom" parent="remote_rr_movement_bottompanel_bottom_general">
+		<item name="android:layout_marginBottom">15dp</item>
+		<item name="android:layout_marginLeft">3dp</item>
+	</style>
+	<style name="remote_rr_move_back_general">
+	</style>
+	<style name="remote_rr_move_back" parent="remote_rr_move_back_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:minHeight">70dp</item>
+		<item name="android:minWidth">134dp</item>
+	</style>
+	<style name="remote_rr_right_bottompanel_general">
+	</style>
+	<style name="remote_rr_right_bottompanel" parent="remote_rr_right_bottompanel_general">
+		<item name="android:layout_marginBottom">5dp</item>
+	</style>
+	<style name="remote_rr_cautious_mode_general">
+	</style>
+	<style name="remote_rr_cautious_mode" parent="remote_rr_cautious_mode_general">
+		<item name="android:layout_width">70dp</item>
+		<item name="android:layout_height">50dp</item>
+		<item name="android:layout_marginBottom">8dp</item>
+		<item name="android:paddingLeft">5dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rr_roam_general">
+	</style>
+	<style name="remote_rr_roam" parent="remote_rr_roam_general">
+		<item name="android:layout_width">70dp</item>
+		<item name="android:layout_height">70dp</item>
+		<item name="android:layout_marginBottom">8dp</item>
+		<item name="android:paddingLeft">5dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rr_playful_mode_general">
+	</style>
+	<style name="remote_rr_playful_mode" parent="remote_rr_playful_mode_general">
+		<item name="android:layout_width">70dp</item>
+		<item name="android:layout_height">50dp</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:paddingLeft">5dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rr_commandname_bottompanel_general">
+	</style>
+	<style name="remote_rr_commandname_bottompanel" parent="remote_rr_commandname_bottompanel_general">
+		<item name="android:layout_marginBottom">217dp</item>
+	</style>
+	<style name="remote_rr_commandname_general">
+	</style>
+	<style name="remote_rr_commandname" parent="remote_rr_commandname_general">
+	</style>
+	<style name="remote_rr_top_toppanel_general">
+	</style>
+	<style name="remote_rr_top_toppanel" parent="remote_rr_top_toppanel_general">
+		<item name="android:layout_marginTop">-57dp</item>
+		<item name="android:gravity">center_horizontal</item>
+	</style>
+	<style name="remote_rr_clockwise_head_general" parent="remote_button_text">
+	</style>
+	<style name="remote_rr_clockwise_head" parent="remote_rr_clockwise_head_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:minHeight">70dp</item>
+		<item name="android:minWidth">134dp</item>
+	</style>
+	<style name="remote_rr_tail_left_general" parent="remote_button_text">
+	</style>
+	<style name="remote_rr_tail_left" parent="remote_rr_tail_left_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">-57dp</item>
+		<item name="android:minHeight">134dp</item>
+		<item name="android:minWidth">70dp</item>
+	</style>
+	<style name="remote_rr_bite_general">
+	</style>
+	<style name="remote_rr_bite" parent="remote_rr_bite_general">	
+		<item name="android:layout_width">60dp</item>
+		<item name="android:layout_height">60dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rr_tail_right_general" parent="remote_button_text">
+	</style>
+	<style name="remote_rr_tail_right" parent="remote_rr_tail_right_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">57dp</item>
+		<item name="android:minHeight">134dp</item>
+		<item name="android:minWidth">70dp</item>
+	</style>
+	<style name="remote_rr_bottom_toppanel_general">
+	</style>
+	<style name="remote_rr_bottom_toppanel" parent="remote_rr_bottom_toppanel_general">
+		<item name="android:layout_marginLeft">2dp</item>
+		<item name="android:layout_marginTop">57dp</item>
+	</style>
+	<style name="remote_rr_counterclockwise_head_general">
+	</style>
+	<style name="remote_rr_counterclockwise_head" parent="remote_rr_counterclockwise_head_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:minHeight">70dp</item>
+		<item name="android:minWidth">134dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rr_blacklayerpanel_general">
+	</style>
+	<style name="remote_rr_blacklayerpanel" parent="remote_rr_blacklayerpanel_general">
+	</style>
+	<style name="remote_rr_namemenupanel_general">
+	</style>
+	<style name="remote_rr_namemenupanel" parent="remote_rr_namemenupanel_general">
+		<item name="android:visibility">gone</item>
+	</style>
+	<style name="remote_rr_namemenupanel_logo_general">
+	</style>
+	<style name="remote_rr_namemenupanel_logo" parent="remote_rr_namemenupanel_logo_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="remote_rr_namemenu_confirm_general">
+	</style>
+	<style name="remote_rr_namemenu_confirm" parent="remote_rr_namemenu_confirm_general">
+		<item name="android:minHeight">45dp</item>
+		<item name="android:minWidth">45dp</item>
+	</style>
+	<style name="remote_rr_namemenu_edit_general">
+	</style>
+	<style name="remote_rr_namemenu_edit" parent="remote_rr_namemenu_edit_general">
+		<item name="android:layout_marginRight">50dp</item>
+		<item name="android:layout_marginLeft">50dp</item>
+	</style>
+</resources>

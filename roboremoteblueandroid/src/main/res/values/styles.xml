@@ -1,0 +1,274 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!--
+		Base application theme, dependent on API level. This theme is replaced
+		by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+	-->
+	<style name="AppBaseTheme" parent="android:Theme.Light">
+		<!--
+			Theme customizations available in newer API levels can go in
+			res/values-vXX/styles.xml, while customizations related to
+			backward-compatibility can go here.
+		-->
+	</style>
+
+	<!-- Application theme. -->
+	<style name="AppTheme" parent="AppBaseTheme">
+		<!-- All customizations that are NOT specific to a particular API-level can go here. -->
+		<item name="android:soundEffectsEnabled">false</item>
+	</style>
+
+	<style name="Theme_Dialog" parent="android:Theme.Light">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+	</style>
+
+	<style name="MyTheme" parent="android:Theme.Holo.Light">
+		<item name="android:windowActionBar">false</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+
+	<style name="settings_panel_black_general">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+	<style name="settings_panel_black" parent="settings_panel_black_general">
+	</style>
+	<style name="settings_title_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+	<style name="settings_title" parent="settings_title_general">
+		<item name="android:layout_gravity">end|top</item>
+		<item name="android:layout_marginRight">62dp</item>
+		<item name="android:layout_marginTop">7dp</item>
+		<item name="android:textSize">@dimen/dimension_20</item>
+	</style>
+	<style name="button_back_general">
+		<item name="android:layout_gravity">start</item>
+		<item name="android:text">@string/back</item>
+		<item name="android:minHeight">45dp</item>
+		<item name="android:minWidth">45dp</item>
+	</style>
+	<style name="button_back" parent="button_back_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="settings_field_title_general">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+	<style name="settings_field_title" parent="settings_field_title_general">
+		<item name="android:textSize">@dimen/dimension_25</item>
+	</style>
+	<style name="settings_field_value_general">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+	<style name="settings_field_value" parent="settings_field_value_general">
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="settings_bottom_bar_general">
+	</style>
+	<style name="settings_bottom_bar" parent="settings_bottom_bar_general">
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="settings_button_disconnect_general">
+	</style>
+	<style name="settings_button_disconnect" parent="settings_button_disconnect_general">
+		<item name="android:layout_height">45dp</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+
+	<style name="settingselection_list_general">
+	</style>
+	<style name="settingselection_list" parent="settingselection_list_general">
+	</style>
+
+	<style name="dialog_layout_general">
+	</style>
+	<style name="dialog_layout" parent="dialog_layout_general">
+		<item name="android:minWidth">300dp</item>
+		<item name="android:minHeight">200dp</item>
+	</style>
+	<style name="dialog_title_general">
+	</style>
+	<style name="dialog_title" parent="dialog_title_general">
+		<item name="android:layout_marginTop">10dp</item>
+		<item name="android:textSize">@dimen/dimension_30</item>
+	</style>
+	<style name="dialog_value_general">
+	</style>
+	<style name="dialog_value" parent="dialog_value_general">
+	</style>
+	<style name="dialog_button_layout_general">
+	</style>
+	<style name="dialog_button_layout" parent="dialog_button_layout_general">
+		<item name="android:layout_marginBottom">10dp</item>
+		<item name="android:layout_marginLeft">25dp</item>
+		<item name="android:layout_marginRight">25dp</item>
+	</style>
+	<style name="dialog_button_general">
+	</style>
+	<style name="dialog_button" parent="dialog_button_general">
+		<item name="android:minHeight">22dp</item>
+		<item name="android:minWidth">22dp</item>
+	</style>
+	<style name="dialog_edittext_general">
+	</style>
+	<style name="dialog_edittext" parent="dialog_edittext_general">
+		<item name="android:layout_marginRight">10dp</item>
+		<item name="android:layout_marginLeft">10dp</item>
+	</style>
+
+	<style name="macropanel_title_general">
+	</style>
+	<style name="macropanel_title" parent="macropanel_title_general">
+		<item name="android:layout_gravity">end|top</item>
+		<item name="android:layout_marginRight">40dp</item>
+		<item name="android:layout_marginTop">7dp</item>
+		<item name="android:textSize">@dimen/dimension_20</item>
+		<item name="android:maxWidth">100dp</item>
+	</style>
+	<style name="macropanel_button_back_general">
+	</style>
+	<style name="macropanel_button_back" parent="macropanel_button_back_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="macropanel_button_mic_general">
+	</style>
+	<style name="macropanel_button_mic" parent="macropanel_button_mic_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">end|top</item>
+		<item name="android:layout_marginTop">-3dp</item>
+	</style>
+	<style name="macropanel_bottom_bar_general">
+	</style>
+	<style name="macropanel_bottom_bar" parent="macropanel_bottom_bar_general">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentBottom">true</item>
+	</style>
+	<style name="macropanel_button_plus_general">
+	</style>
+	<style name="macropanel_button_plus" parent="macropanel_button_plus_general">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">45dp</item>
+		<item name="android:layout_gravity">center_vertical</item>
+	</style>
+	<style name="macropanel_micpanel_mic_general">
+	</style>
+	<style name="macropanel_micpanel_mic" parent="macropanel_micpanel_mic_general">
+		<item name="android:layout_width">150dp</item>
+		<item name="android:layout_height">141dp</item>
+	</style>
+	<style name="macropanel_micpanel_mic_inputstate_general">
+	</style>
+	<style name="macropanel_micpanel_mic_inputstate" parent="macropanel_micpanel_mic_inputstate_general">
+	</style>
+	<style name="macropanel_micpanel_mic_command_general">
+	</style>
+	<style name="macropanel_micpanel_mic_command" parent="macropanel_micpanel_mic_command_general">
+		<item name="android:layout_marginBottom">20dp</item>
+	</style>
+	<style name="macropanel_macro_list_general">
+	</style>
+	<style name="macropanel_macro_list" parent="macropanel_macro_list_general">
+	</style>
+	<style name="macropanel_top_bar_general">
+	</style>
+	<style name="macropanel_top_bar" parent="macropanel_top_bar_general">
+	</style>
+
+	<style name="scanner_top_bar_general">
+	</style>
+	<style name="scanner_top_bar" parent="scanner_top_bar_general">
+	</style>
+	<style name="scanner_top_bar_button_general">
+	</style>
+	<style name="scanner_top_bar_button" parent="scanner_top_bar_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginTop">-2dp</item>
+	</style>
+	<style name="scanner_top_bar_logo_general">
+	</style>
+	<style name="scanner_top_bar_logo" parent="scanner_top_bar_logo_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="scanner_bottom_bar_general">
+	</style>
+	<style name="scanner_bottom_bar" parent="scanner_bottom_bar_general">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">45dp</item>
+	</style>
+	<style name="scanner_bottom_bar_button_general">
+	</style>
+	<style name="scanner_bottom_bar_button" parent="scanner_bottom_bar_button_general">
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="scanner_robot_list_general">
+	</style>
+	<style name="scanner_robot_list" parent="scanner_robot_list_general">
+	</style>
+
+	<style name="tableitem_macro_text_general">
+	</style>
+	<style name="tableitem_macro_text" parent="tableitem_macro_text_general">
+		<item name="android:layout_marginLeft">5dp</item>
+		<item name="android:textSize">@dimen/dimension_25</item>
+	</style>
+	<style name="tableitem_macro_button_general">
+	</style>
+	<style name="tableitem_macro_button" parent="tableitem_macro_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="tableitem_scanner_logo_general">
+	</style>
+	<style name="tableitem_scanner_logo" parent="tableitem_scanner_logo_general">
+		<item name="android:layout_width">78dp</item>
+		<item name="android:layout_height">85dp</item>
+	</style>
+	<style name="tableitem_scanner_text_general">
+	</style>
+	<style name="tableitem_scanner_text" parent="tableitem_scanner_text_general">
+		<item name="android:textSize">@dimen/dimension_25</item>
+	</style>
+
+	<style name="tableitem_settingselection_text_general">
+	</style>
+	<style name="tableitem_settingselection_text" parent="tableitem_settingselection_text_general">
+		<item name="android:textSize">@dimen/dimension_25</item>
+	</style>
+	<style name="tableitem_settingselection_tick_general">
+	</style>
+	<style name="tableitem_settingselection_tick" parent="tableitem_settingselection_tick_general">
+		<item name="android:textSize">@dimen/dimension_25</item>
+	</style>
+
+	<style name="tableitem_settingselection_twoline_title_general">
+	</style>
+	<style name="tableitem_settingselection_twoline_title" parent="tableitem_settingselection_twoline_title_general">
+		<item name="android:textSize">@dimen/dimension_25</item>
+	</style>
+	<style name="tableitem_settingselection_twoline_value_general">
+	</style>
+	<style name="tableitem_settingselection_twoline_value" parent="tableitem_settingselection_twoline_value_general">
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="tableitem_settingselection_twoline_tick_general">
+	</style>
+	<style name="tableitem_settingselection_twoline_tick" parent="tableitem_settingselection_twoline_tick_general">
+		<item name="android:textSize">@dimen/dimension_25</item>
+	</style>
+</resources>

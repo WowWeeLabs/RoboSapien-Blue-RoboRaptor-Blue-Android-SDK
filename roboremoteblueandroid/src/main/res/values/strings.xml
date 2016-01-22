@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name" translatable="false">RoboBlueSampleProject</string>
+	<string name="action_settings">Settings</string>
+
+	<string name="arm_up">Arm Up</string>
+	<string name="arm_down">Arm Down</string>
+	<string name="arm_out">Arm Out</string>
+	<string name="arm_in">Arm In</string>
+
+	<string name="pick_up">Pick Up</string>
+	<string name="throw_">Throw</string>
+	<string name="thump">Thump</string>
+	<string name="sweep">Sweep</string>
+
+	<string name="strike_1">Strike 1</string>
+	<string name="strike_2">Strike 2</string>
+	<string name="high_5">High 5</string>
+	<string name="strike_3">Strike 3</string>
+	<string name="talk_back">Talk Back</string>
+
+	<string name="sfx_whistle">SFX\nWhistle</string>
+	<string name="sfx_burp">SFX\nBurp</string>
+
+	<string name="sfx_roar">SFX\nRoar</string>
+	<string name="extras">Extras</string>
+	<string name="sfx_oops">SFX\nOops</string>
+
+	<string name="guard_mode">Guard\nMode</string>
+	<string name="demo">Demo</string>
+	<string name="hunting_mode">Hunting\nMode</string>
+
+	<string name="cautious_mode">Cautious\nMode</string>
+	<string name="roam">Roam</string>
+	<string name="playful_mode">Playful\nMode</string>
+
+	<string name="tilt_left">Tilt\nLeft</string>
+	<string name="tilt_right">Tilt\nRight</string>
+	<string name="lean_forward">Lean\nForward</string>
+	<string name="lean_back">Lean\nBack</string>
+
+	<string name="head_clockwise">Head Clockwise</string>
+	<string name="head_counterclockwise">Head Counterclockwise</string>
+	<string name="bite">Bite</string>
+	<string name="left_tail">Left Tail</string>
+	<string name="right_tail">Right Tail</string>
+
+	<string name="move_forward">Move\nforward</string>
+	<string name="move_back">Move\nback</string>
+	<string name="move_right">Move\nright</string>
+	<string name="move_left">Move\nleft</string>
+	<string name="stop">Stop</string>
+
+	<string name="demo1">Demo 1</string>
+	<string name="demo2">Demo 2</string>
+
+	<string name="sleep">Sleep</string>
+	<string name="listen">Listen</string>
+
+	<string name="disconnect">Disconnect</string>
+
+	<string name="settingpanel_setting_title">Settings</string>
+	<string name="settingpanel_info_title">Info</string>
+	<string name="settinginfopanel_info_appversontitle">App Version</string>
+	<string name="settinginfopanel_info_firmwareversiontitle">Firmware Version</string>
+	<string name="settinginfopanel_info_robottypetitle">Robot Type</string>
+
+	<string name="dialog_title_warning">Warning</string>
+
+	<string name="tutorial_title">Hints</string>
+	<string name="tutorial_sleep">Please press stop button to\nwake up RoboSapien.</string>
+
+	<string name="move_forward_vc">Move forward</string>
+	<string name="move_back_vc">Move back</string>
+	<string name="tilt_right_vc">Tilt right</string>
+	<string name="tilt_left_vc">Tilt left</string>
+	<string name="lean_forward_vc">Lean forward</string>
+	<string name="lean_backward_vc">Lean backward</string>
+	<string name="arm_up_right_vc">Arm up right</string>
+	<string name="arm_up_left_vc">Arm up left</string>
+	<string name="arm_down_right_vc">Arm down right</string>
+	<string name="arm_down_left_vc">Arm down left</string>
+	<string name="arm_in_right_vc">Arm in right</string>
+	<string name="arm_in_left_vc">Arm in left</string>
+	<string name="arm_out_right_vc">Arm out right</string>
+	<string name="arm_out_left_vc">Arm out left</string>
+	<string name="pick_up_right_vc">Pick up right</string>
+	<string name="pick_up_left_vc">Pick up left</string>
+	<string name="thump_right_vc">Thump right</string>
+	<string name="thump_left_vc">Thump left</string>
+	<string name="sweep_right_vc">Sweep right</string>
+	<string name="sweep_left_vc">Sweep left</string>
+	<string name="throw_right_vc">Throw right</string>
+	<string name="throw_left_vc">Throw left</string>
+	<string name="strike_one_right_vc">Strike one right</string>
+	<string name="strike_one_left_vc">Strike one left</string>
+	<string name="strike_two_right_vc">Strike two right</string>
+	<string name="strike_two_left_vc">Strike two left</string>
+	<string name="strike_three_right_vc">Strike three right</string>
+	<string name="strike_three_left_vc">Strike three left</string>
+	<string name="talk_back_vc">Talk back</string>
+	<string name="high_five_vc">High five</string>
+	<string name="demo_one_vc">Demo one</string>
+	<string name="demo_two_vc">Demo two</string>
+	<string name="burp_vc">Burp</string>
+	<string name="whistle_vc">Whistle</string>
+	<string name="roar_vc">Roar</string>
+	<string name="oops_vc">Oops</string>
+	<string name="sleep_vc">Sleep</string>
+	<string name="listen_vc">Listen</string>
+
+	<string name="turn_right_vc">Turn\nright</string>
+	<string name="turn_left_vc">Turn\nleft</string>
+	<string name="stop_vc">Stop</string>
+	<string name="clockwise_head_vc">Clockwise\nHead</string>
+	<string name="counterclockwise_head_vc">Counterclockwise\nHead</string>
+	<string name="bite_vc">Bite</string>
+	<string name="tail_left_vc">Tail\nLeft</string>
+	<string name="tail_right_vc">Tail\nRight</string>
+	<string name="cautious_mode_vc">Cautious Mode</string>
+	<string name="guard_mode_vc">Guard Mode</string>
+	<string name="hunting_mode_vc">Hunting Mode</string>
+	<string name="playful_mode_vc">Playful Mode</string>
+
+	<string name="roboraptor_name" translatable="false">Roboraptor</string>
+	<string name="robosapien_name" translatable="false">Robosapien</string>
+
+	<string name="back">Back</string>
+	<string name="cancel">Cancel</string>
+	<string name="ok">OK</string>
+
+	<string name="toast_trytoconnect_android">Connecting to Robosapien</string>
+	<string name="refresh">Refresh</string>
+
+	<string name="next_page">Next</string>
+	<string name="previous_page">Previous</string>
+</resources>

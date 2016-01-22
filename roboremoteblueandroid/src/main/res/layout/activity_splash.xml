@@ -1,0 +1,37 @@
+<FrameLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".SplashActivity">
+
+	<ImageView
+			android:id="@+id/imageViewBase"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:scaleType="centerCrop"
+			android:background="@color/appdarkblue"/>
+
+	<TextView
+			android:id="@+id/imageViewTop"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="end"
+			android:textSize="@dimen/dimension_30"
+			android:text="@string/robosapien_name"/>
+
+	<TextView
+			android:id="@+id/imageViewBottom"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="start|bottom"
+			android:textSize="@dimen/dimension_30"
+			android:text="@string/roboraptor_name"/>
+
+	<ProgressBar
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+
+</FrameLayout>

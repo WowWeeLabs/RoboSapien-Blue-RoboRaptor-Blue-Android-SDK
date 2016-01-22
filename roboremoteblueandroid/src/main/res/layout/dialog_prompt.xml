@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/layout_dialog_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal"
+		android:background="@color/appblue"
+		android:orientation="vertical"
+		android:padding="10dp"
+		style="@style/dialog_layout">
+
+	<EditText
+			android:id="@+id/dialog_textfield_edittext"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|center_vertical"
+			android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+			android:imeOptions="actionDone"
+			android:inputType="text"
+			android:maxLength="15"
+			android:singleLine="true"
+			android:visibility="invisible">
+
+		<requestFocus/>
+
+	</EditText>
+
+	<TextView
+			android:id="@+id/textView_DialogView_Title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:text="@string/dialog_title_warning"
+			android:textColor="@android:color/white"
+			android:textStyle="bold"
+			style="@style/dialog_title"/>
+
+	<TextView
+			android:id="@+id/textView_DialogView_Value"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|center_vertical"
+			android:gravity="center_horizontal|center_vertical"
+			android:lines="2"
+			android:text="Title"
+			android:textColor="@android:color/white"
+			style="@style/dialog_value"/>
+
+	<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom"
+			style="@style/dialog_button_layout">
+
+		<Button
+				android:id="@+id/button_dialog_no"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_weight="1"
+				android:text="@string/ok"
+				style="@style/dialog_button"/>
+
+	</FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutSetting"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+				android:background="@color/appdarkblue"
+                android:orientation="vertical">
+
+	<FrameLayout
+			android:id="@+id/layout_settingpanel_black"
+			style="@style/settings_panel_black">
+
+		<TextView
+				android:id="@+id/title"
+				android:text="@string/settingpanel_setting_title"
+				style="@style/settings_title"/>
+
+		<Button
+				android:id="@+id/button_back"
+				android:tag="SettingPageButtonBack"
+				style="@style/button_back"/>
+
+	</FrameLayout>
+
+	<ScrollView
+			android:id="@+id/layoutSettingScrollView"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/layout_settingpanel_black"
+			android:layout_marginRight="20dp"
+			android:layout_marginLeft="20dp">
+
+		<LinearLayout
+				android:id="@+id/layoutSettingScrollView_Child"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+			<LinearLayout
+					android:id="@+id/layoutSettingScrollView_Info"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+
+				<TextView
+						android:id="@+id/textViewInfo"
+						android:text="@string/settingpanel_info_title"
+						style="@style/settings_field_title"/>
+
+				<TextView
+						android:id="@+id/textViewAppInfo_value"
+						android:text=""
+						style="@style/settings_field_value"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<LinearLayout
+			android:id="@+id/layoutSettingBottomBar"
+			android:layout_width="fill_parent"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="-3dp"
+			android:layout_marginRight="-3dp"
+			android:layout_marginLeft="-3dp"
+			android:background="@drawable/topborderonly"
+			style="@style/settings_bottom_bar">
+
+		<Button
+				android:id="@+id/buttonDisconnect"
+				android:layout_width="match_parent"
+				android:layout_height="45dp"
+				android:layout_gravity="center_vertical"
+				android:background="@android:color/transparent"
+				android:tag="SettingPageButtonDisconnect"
+				android:text="@string/disconnect"
+				android:textColor="@color/white"
+				android:textSize="@dimen/dimension_12"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:id="@+id/layout_settingpanel_blacklayer"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:alpha="0.5"
+			android:background="@color/appblackwithalpha">
+
+	</LinearLayout>
+</RelativeLayout>

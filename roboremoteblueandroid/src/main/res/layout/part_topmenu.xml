@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/layoutRemote_topmenu"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:baselineAligned="false"
+             style="@style/remote_rr_topmenu">
+
+	<Button
+			android:id="@+id/button_settings"
+			android:layout_gravity="center_vertical|end"
+			android:text="@string/action_settings"
+			android:minHeight="45dp"
+			android:minWidth="45dp"
+			style="@style/remote_settings"
+			android:visibility="invisible"/>
+
+	<ImageView
+			android:id="@+id/imageViewLogo"
+			android:layout_marginLeft="10dp"
+			android:gravity="start"
+			android:maxHeight="30dp"
+			android:maxWidth="200dp"
+			android:minHeight="8dp"
+			android:minWidth="50dp"
+			style="@style/remote_logo"/>
+
+</FrameLayout>

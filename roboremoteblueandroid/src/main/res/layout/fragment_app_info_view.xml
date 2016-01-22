@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutSetting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/appdarkblue"
+                android:orientation="vertical">
+
+	<FrameLayout
+			android:id="@+id/layout_settingpanel_black"
+			style="@style/settings_panel_black">
+
+		<com.wowwee.roboremotebluesampleproject.utils.AutoResizeTextView
+		    android:id="@+id/title"
+		    style="@style/settings_title"
+		    android:layout_width="180dp"
+		    android:layout_marginRight="10dp"
+		    android:gravity="right"
+		    android:text="@string/settingpanel_info_title" />
+
+		<Button
+				android:id="@+id/button_back"
+				android:tag="SettingPageButtonBack"
+				style="@style/button_back"/>
+
+	</FrameLayout>
+
+	<ScrollView
+			android:id="@+id/layoutSettingScrollView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/layout_settingpanel_black"
+			android:layout_marginRight="20dp"
+			android:layout_marginLeft="20dp">
+
+		<LinearLayout
+				android:id="@+id/layoutSettingScrollView_Child"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+			<LinearLayout
+					android:id="@+id/layoutSettingScrollView_Name"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+
+				<TextView
+						android:id="@+id/textView_InfoView_AppVersion"
+						android:text="@string/settinginfopanel_info_appversontitle"
+						style="@style/settings_field_title"/>
+
+				<TextView
+						android:id="@+id/textView_InfoView_AppVersion_Value"
+						android:text="123"
+						style="@style/settings_field_value"/>
+
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

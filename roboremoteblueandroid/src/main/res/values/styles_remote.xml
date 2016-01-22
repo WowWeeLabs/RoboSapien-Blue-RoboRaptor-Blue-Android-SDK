@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="remote_button_text">
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_micpanel_general">
+	</style>
+	<style name="remote_micpanel" parent="remote_micpanel_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:minHeight">180dp</item>
+		<item name="android:minWidth">250dp</item>
+	</style>
+	<style name="remote_micpanel_title_general" parent="remote_button_text">
+	</style>
+	<style name="remote_micpanel_title" parent="remote_micpanel_title_general">
+		<item name="android:layout_marginTop">40dp</item>
+	</style>
+	<style name="remote_micpanel_command_general">
+	</style>
+	<style name="remote_micpanel_command" parent="remote_micpanel_command_general">
+		<item name="android:layout_marginTop">55dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_micpanel_image_general">
+	</style>
+	<style name="remote_micpanel_image" parent="remote_micpanel_image_general">
+		<item name="android:layout_width">113dp</item>
+		<item name="android:layout_height">143dp</item>
+		<item name="android:layout_marginTop">-5dp</item>
+	</style>
+	<style name="remote_micpanel_close_general">
+	</style>
+	<style name="remote_micpanel_close" parent="remote_micpanel_close_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center_horizontal|center_vertical</item>
+		<item name="android:layout_marginLeft">130dp</item>
+		<item name="android:layout_marginTop">-90dp</item>
+		<item name="android:minHeight">45dp</item>
+		<item name="android:minWidth">45dp</item>
+	</style>
+
+	<style name="remote_macro_general">
+	</style>
+	<style name="remote_macro" parent="remote_macro_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginRight">120dp</item>
+	</style>
+	<style name="remote_stop_general">
+	</style>
+	<style name="remote_stop" parent="remote_stop_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginRight">60dp</item>
+	</style>
+	<style name="remote_mic_general">
+	</style>
+	<style name="remote_mic" parent="remote_mic_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginRight">60dp</item>
+	</style>
+	<style name="remote_settings_general">
+	</style>
+	<style name="remote_settings" parent="remote_settings_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="remote_cancel_general">
+	</style>
+	<style name="remote_cancel" parent="remote_cancel_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="remote_time_general">
+	</style>
+	<style name="remote_time" parent="remote_time_general">
+		<item name="android:layout_marginRight">120dp</item>
+	</style>
+	<style name="remote_logo_general">
+	</style>
+	<style name="remote_logo" parent="remote_logo_general">
+		<item name="android:layout_width">100dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginTop">5dp</item>
+	</style>
+</resources>

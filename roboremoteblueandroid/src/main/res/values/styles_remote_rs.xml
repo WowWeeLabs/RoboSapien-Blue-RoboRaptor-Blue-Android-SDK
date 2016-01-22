@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="remote_rs_topmenu_general">
+	</style>
+	<style name="remote_rs_topmenu" parent="remote_rs_topmenu_general">
+	</style>
+	<style name="remote_rs_toppanel_top_general">
+	</style>
+	<style name="remote_rs_toppanel_top" parent="remote_rs_toppanel_top_general">
+	</style>
+	<style name="remote_rs_toppanel_buttons_general">
+	</style>
+	<style name="remote_rs_toppanel_buttons" parent="remote_rs_toppanel_buttons_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_toppanel_middle_general">
+	</style>
+	<style name="remote_rs_toppanel_middle" parent="remote_rs_toppanel_middle_general">
+	</style>
+	<style name="remote_rs_pagenav_panel_general">
+	</style>
+	<style name="remote_rs_pagenav_panel" parent="remote_rs_pagenav_panel_general">
+		<item name="android:layout_above">@+id/layoutRemote_BottomPanel</item>
+		<item name="android:layout_marginBottom">-13dp</item>
+	</style>
+	<style name="remote_rs_prev_page_button_general">
+	</style>
+	<style name="remote_rs_prev_page_button" parent="remote_rs_prev_page_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="remote_rs_next_page_button_general">
+	</style>
+	<style name="remote_rs_next_page_button" parent="remote_rs_next_page_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="remote_rs_bottompanel_general">
+	</style>
+	<style name="remote_rs_bottompanel" parent="remote_rs_bottompanel_general">
+		<item name="android:layout_marginBottom">15dp</item>
+	</style>
+	<style name="remote_rs_bottompanel_left_general">
+	</style>
+	<style name="remote_rs_bottompanel_left" parent="remote_rs_bottompanel_left_general">
+	</style>
+	<style name="remote_rs_sfxwhistle_button_general">
+	</style>
+	<style name="remote_rs_sfxwhistle_button" parent="remote_rs_sfxwhistle_button_general">
+		<item name="android:layout_width">70dp</item>
+		<item name="android:layout_height">50dp</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_demo_button_general">
+	</style>
+	<style name="remote_rs_demo_button" parent="remote_rs_demo_button_general">
+		<item name="android:layout_width">70dp</item>
+		<item name="android:layout_height">70dp</item>
+		<item name="android:layout_marginBottom">8dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_sfxroar_button_general">
+	</style>
+	<style name="remote_rs_sfxroar_button" parent="remote_rs_sfxroar_button_general">
+		<item name="android:layout_width">70dp</item>
+		<item name="android:layout_height">50dp</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_movementpanel_general">
+	</style>
+	<style name="remote_rs_movementpanel" parent="remote_rs_movementpanel_general">
+		<item name="android:layout_width">202dp</item>
+		<item name="android:layout_height">202dp</item>
+	</style>
+	<style name="remote_rs_movementpanel_top_general">
+	</style>
+	<style name="remote_rs_movementpanel_top" parent="remote_rs_movementpanel_top_general">
+		<item name="android:layout_marginBottom">124dp</item>
+	</style>
+	<style name="remote_rs_moveforward_button_general">
+	</style>
+	<style name="remote_rs_moveforward_button" parent="remote_rs_moveforward_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="remote_rs_tiltleft_button_general">
+	</style>
+	<style name="remote_rs_tiltleft_button" parent="remote_rs_tiltleft_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">4dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_tiltright_button_general">
+	</style>
+	<style name="remote_rs_tiltright_button" parent="remote_rs_tiltright_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginRight">4dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_movementpanel_bottom_general">
+	</style>
+	<style name="remote_rs_movementpanel_bottom" parent="remote_rs_movementpanel_bottom_general">
+		<item name="android:layout_marginBottom">0dp</item>
+	</style>
+	<style name="remote_rs_movementpanel_middle_general">
+	</style>
+	<style name="remote_rs_movementpanel_middle" parent="remote_rs_movementpanel_middle_general">
+		<item name="android:layout_marginBottom">0dp</item>
+	</style>
+	<style name="remote_rs_movementstop_button_general">
+	</style>
+	<style name="remote_rs_movementstop_button" parent="remote_rs_movementstop_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:minHeight">60dp</item>
+		<item name="android:minWidth">60dp</item>
+	</style>
+	<style name="remote_rs_movementleft_button_general">
+	</style>
+	<style name="remote_rs_movementleft_button" parent="remote_rs_movementleft_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">4dp</item>
+	</style>
+	<style name="remote_rs_movementright_button_general">
+	</style>
+	<style name="remote_rs_movementright_button" parent="remote_rs_movementright_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginRight">4dp</item>
+	</style>
+	<style name="remote_rs_movementback_button_general">
+	</style>
+	<style name="remote_rs_movementback_button" parent="remote_rs_movementback_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="remote_rs_leanforward_button_general">
+	</style>
+	<style name="remote_rs_leanforward_button" parent="remote_rs_leanforward_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">4dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_leanback_button_general">
+	</style>
+	<style name="remote_rs_leanback_button" parent="remote_rs_leanback_button_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginRight">4dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_bottompanel_right_general">
+	</style>
+	<style name="remote_rs_bottompanel_right" parent="remote_rs_bottompanel_right_general">
+	</style>
+	<style name="remote_rs_sfxburp_button_general">
+	</style>
+	<style name="remote_rs_sfxburp_button" parent="remote_rs_sfxburp_button_general">
+		<item name="android:layout_width">70dp</item>
+		<item name="android:layout_height">50dp</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_extras_button_general">
+	</style>
+	<style name="remote_rs_extras_button" parent="remote_rs_extras_button_general">
+		<item name="android:layout_width">70dp</item>
+		<item name="android:layout_height">70dp</item>
+		<item name="android:layout_marginBottom">8dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_sfxoops_button_general">
+	</style>
+	<style name="remote_rs_sfxoops_button" parent="remote_rs_sfxoops_button_general">
+		<item name="android:layout_width">70dp</item>
+		<item name="android:layout_height">50dp</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_commandname_bottompanel_general">
+	</style>
+	<style name="remote_rs_commandname_bottompanel" parent="remote_rs_commandname_bottompanel_general">
+		<item name="android:layout_marginBottom">202dp</item>
+		<item name="android:layout_gravity">top|center_horizontal</item>
+		<item name="android:gravity">bottom|center_horizontal</item>
+	</style>
+	<style name="remote_rs_commandname_general">
+	</style>
+	<style name="remote_rs_commandname" parent="remote_rs_commandname_general">
+	</style>
+	<style name="remote_rs_namepanel_logo_general">
+	</style>
+	<style name="remote_rs_namepanel_logo" parent="remote_rs_namepanel_logo_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="remote_rs_namepanel_confirm_button_general">
+	</style>
+	<style name="remote_rs_namepanel_confirm_button" parent="remote_rs_namepanel_confirm_button_general">
+		<item name="android:minHeight">45dp</item>
+		<item name="android:minWidth">45dp</item>
+	</style>
+	<style name="remote_rs_namepanel_edit_general">
+	</style>
+	<style name="remote_rs_namepanel_edit" parent="remote_rs_namepanel_edit_general">
+		<item name="android:layout_marginRight">50dp</item>
+		<item name="android:layout_marginLeft">50dp</item>
+	</style>
+	<style name="remote_rs_leftpopuppanel_general">
+	</style>
+	<style name="remote_rs_leftpopuppanel" parent="remote_rs_leftpopuppanel_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">275dp</item>
+		<item name="android:layout_marginBottom">180dp</item>
+	</style>
+	<style name="remote_rs_rightpopuppanel_general">
+	</style>
+	<style name="remote_rs_rightpopuppanel" parent="remote_rs_rightpopuppanel_general">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">275dp</item>
+		<item name="android:layout_marginBottom">180dp</item>
+	</style>
+	<style name="remote_rs_demo1_button_general">
+	</style>
+	<style name="remote_rs_demo1_button" parent="remote_rs_demo1_button_general">
+		<item name="android:layout_marginTop">26dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_demo2_button_general">
+	</style>
+	<style name="remote_rs_demo2_button" parent="remote_rs_demo2_button_general">
+		<item name="android:layout_marginTop">48dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_sleep_button_general">
+	</style>
+	<style name="remote_rs_sleep_button" parent="remote_rs_sleep_button_general">
+		<item name="android:layout_marginTop">142dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+	<style name="remote_rs_listen_button_general">
+	</style>
+	<style name="remote_rs_listen_button" parent="remote_rs_listen_button_general">
+		<item name="android:layout_marginTop">52dp</item>
+		<item name="android:textSize">@dimen/dimension_12</item>
+	</style>
+</resources>

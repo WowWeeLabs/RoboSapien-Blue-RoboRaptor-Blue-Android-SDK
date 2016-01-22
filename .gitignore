@@ -1,0 +1,16 @@
+syntax: glob
+.git/
+app/build/
+roboremoteblueandroid/build/
+build/intermediates/
+
+roboremoteblueandroid/roboremoteblueandroid.iml
+RoboSapien-Blue-RoboRaptor-Blue-Android-SDK.iml
+
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/.idea
